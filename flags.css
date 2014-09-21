@@ -1,3 +1,8 @@
+:root {
+    --flag-width: 300px;
+    --flag-height: 200px;
+}
+
 .flag.catalan {
     background-image: linear-gradient( to bottom,
         yellow 0%,
@@ -18,9 +23,9 @@
         red 88.9%,
         yellow 88.9%,
         yellow 100%);
-    height: 200px;
+    height: var(--flag-height);
     position: relative;
-    width: 300px;
+    width: var(--flag-width);
 }
 
 .flag.catalan-separatist {
