@@ -1,0 +1,68 @@
+
+.flag.catalan-separatist {
+    background-image: linear-gradient( to bottom,
+        yellow 0%,
+        yellow 11.1%,
+        red 11.1%,
+        red 22.2%,
+        yellow 22.2%,
+        yellow 33.3%,
+        red 33.3%,
+        red 44.4%,
+        yellow 44.4%,
+        yellow 55.6%,
+        red 55.6%,
+        red 66.7%,
+        yellow 66.7%,
+        yellow 77.8%,
+        red 77.8%,
+        red 88.9%,
+        yellow 88.9%,
+        yellow 100%);
+    background-origin: border-box;
+    border-color: transparent blue transparent transparent;
+    border-style: solid;
+    border-width: 100px 100px;
+    height: 0;
+    position: relative;
+    width: 100px;
+}
+.flag.catalan-separatist > .catalan-separatist-inside {
+    border-bottom: 18.5px  solid white;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    color: white;
+    display: block;
+    height: 0px;
+    margin: -10px 0 0 140px;
+    position: relative;
+    transform: rotate(35deg);
+    width: 0px;
+}
+.flag.catalan-separatist > .catalan-separatist-inside::before {
+    border-bottom: 20px solid white;
+    border-left: 7.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    content: '';
+    display: block;
+    height: 0;
+    left: -16.25px;
+    position: absolute;
+    top: -11.25px;
+    transform: rotate(-35deg);
+    width: 0;
+}
+.flag.catalan-separatist > .catalan-separatist-inside::after {
+    border-bottom: 17.5px solid white;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    color: white;
+    content: '';
+    display: block;
+    left: -26.25px;
+    height: 0px;
+    position: absolute;
+    top: .75px;
+    transform: rotate(-70deg);
+    width: 0px;
+}
